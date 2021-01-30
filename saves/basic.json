@@ -2,7 +2,7 @@
   "configs": {
     "topTaskBar": false,
     "sound": false,
-    "wallpaper": "./res/img/wallpapers/bg1.jpg",
+    "wallpaper": "./res/img/wallpapers/bg16.jpg",
     "wallpaperBlur": false,
     "wallpaperSlide": false,
     "wallpaperSlideRandom": true,
@@ -72,6 +72,14 @@
       {
         "image": "./res/img/wallpapers/bg14.jpg",
         "preview": "./res/img/wallpapers/bg14_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg15.jpg",
+        "preview": "./res/img/wallpapers/bg15_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg16.jpg",
+        "preview": "./res/img/wallpapers/bg16_1.jpg"
       }
     ],
     "pathRes": "./res",
@@ -91,7 +99,7 @@
         "bg": "#436fde",
         "content": "gear"
       },
-      "openMode": "normal",
+      "openMode": "max",
       "plugin": false,
       "position": {
         "x": "x*0.05",
@@ -157,7 +165,7 @@
         "content": "internet-explorer",
         "bg": "#3a55c2"
       },
-      "openMode": "normal",
+      "openMode": "max",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -184,13 +192,13 @@
       "autoRun": 0,
       "background": false,
       "badge": 0,
-      "desc": "",
+      "desc": "应用商店",
       "icon": {
         "type": "fa",
         "content": "shopping-bag",
         "bg": "#b36aba"
       },
-      "openMode": "normal",
+      "openMode": "max",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -223,7 +231,7 @@
         "content": "yoast",
         "bg": "#6b96cf"
       },
-      "openMode": "normal",
+      "openMode": "max",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -316,13 +324,13 @@
       "autoRun": 0,
       "background": false,
       "badge": 0,
-      "desc": "",
+      "desc": "码云仓库",
       "icon": {
         "type": "str",
         "content": "G",
         "bg": "rgb(216,2,18)"
       },
-      "openMode": "normal",
+      "openMode": "max",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -349,7 +357,7 @@
       "autoRun": 0,
       "background": false,
       "badge": 0,
-      "desc": "github仓库地址",
+      "desc": "GitHub仓库",
       "icon": {
         "type": "fa",
         "content": "github",
@@ -365,14 +373,14 @@
         "y": "y*0.05"
       },
       "version": "1.0.0",
-      "poweredBy": "github",
+      "poweredBy": "GitHub",
       "resizable": false,
       "single": false,
       "size": {
         "height": "y*0.8-80",
         "width": "x*0.8"
       },
-      "title": "github",
+      "title": "GitHub",
       "url": "https://github.com:/yuri2peter/ylui",
       "customTile": "",
       "urlRandomToken": false
@@ -388,7 +396,7 @@
         "content": "flag",
         "bg": "rgb(53,154,238)"
       },
-      "openMode": "normal",
+      "openMode": "max",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -415,13 +423,13 @@
       "autoRun": 0,
       "background": false,
       "badge": 0,
-      "desc": "",
+      "desc": "路过图床",
       "icon": {
         "type": "fa",
         "content": "image",
         "bg": "#72b076"
       },
-      "openMode": "normal",
+      "openMode": "max",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -452,8 +460,20 @@
       "hash": ""
     },
     {
+      "app": "yl-system",
+      "title": "系统设置",
+      "params": {},
+      "hash": ""
+    },
+    {
       "app": "yl-app-store",
       "title": "应用商店",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "yl-color-picker",
+      "title": "取色器",
       "params": {},
       "hash": ""
     },
@@ -474,7 +494,7 @@
         },
         {
           "app": "ylui-github",
-          "title": "github",
+          "title": "GitHub",
           "params": {},
           "hash": ""
         },
@@ -496,8 +516,8 @@
           "y": 6,
           "w": 2,
           "h": 2,
-          "app": "yl-app-store",
-          "title": "应用商店",
+          "app": "ylui-documents",
+          "title": "在线文档",
           "i": "91",
           "params": {},
           "hash": ""
@@ -518,8 +538,8 @@
           "y": 4,
           "w": 2,
           "h": 2,
-          "app": "yl-browser",
-          "title": "浏览器",
+          "app": "yl-app-home",
+          "title": "YLUI 官网",
           "i": "146",
           "params": {},
           "hash": ""
@@ -529,8 +549,8 @@
           "y": 0,
           "w": 6,
           "h": 4,
-          "app": "yl-app-home",
-          "title": "YLUI 官网",
+          "app": "yl-browser",
+          "title": "浏览器",
           "i": "147",
           "params": {},
           "hash": ""
@@ -540,8 +560,8 @@
           "y": 6,
           "w": 4,
           "h": 2,
-          "app": "ylui-documents",
-          "title": "在线文档",
+          "app": "yl-app-store",
+          "title": "应用商店",
           "i": "158",
           "params": {},
           "hash": ""
@@ -553,6 +573,12 @@
     "width": 620,
     "height": 494,
     "sidebar": [
+      {
+        "app": "yl-app-store",
+        "title": "应用商店",
+        "params": {},
+        "hash": ""
+      },
       {
         "app": "yl-browser",
         "title": "浏览器",
@@ -571,12 +597,6 @@
         "params": {},
         "hash": ""
       },
-      "itemPushed-89": {
-        "app": "yl-app-home",
-        "title": "YLUI 官网",
-        "params": {},
-        "hash": ""
-      },
       "itemPushed-96": {
         "app": "yl-system",
         "title": "系统设置",
@@ -586,6 +606,12 @@
       "itemPushed-88": {
         "app": "yl-app-store",
         "title": "应用商店",
+        "params": {},
+        "hash": ""
+      },
+      "itemPushed-89": {
+        "app": "yl-app-home",
+        "title": "YLUI 官网",
         "params": {},
         "hash": ""
       },
@@ -603,7 +629,7 @@
       },
       "itemPushed-157": {
         "app": "ylui-github",
-        "title": "github",
+        "title": "GitHub",
         "params": {},
         "hash": ""
       }
