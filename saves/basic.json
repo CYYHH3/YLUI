@@ -326,9 +326,9 @@
       "badge": 0,
       "desc": "码云仓库",
       "icon": {
-        "type": "str",
-        "content": "G",
-        "bg": "rgb(216,2,18)"
+        "type": "img",
+        "content": "./res/img/gitee.png",
+        "bg": "white"
       },
       "openMode": "max",
       "plugin": false,
