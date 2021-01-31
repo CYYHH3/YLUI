@@ -5,7 +5,7 @@ YL.static = {
   iconBtnStart: 'html5', //主图标
   author: 'CYY',//作者
   contactInformation: '',//联系方式
-  officialWebsite: 'https://ylui.cyyb.tk',//软件官网
+  officialWebsite: 'https://ylui.cyybt.tk:50071',//软件官网
   welcome: '本网站UI由 YLUI 强力驱动\n更多信息：//ylui.yuri2.cn',//加载完毕控制台提示信息
   copyrightDetail: '',//版权详细信息
   otherStatements: '',//其他信息（可留空）
