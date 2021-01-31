@@ -319,6 +319,39 @@
             "customTile": "",
             "urlRandomToken": true
         },
+        "pdf-reader": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "PDF阅读器",
+            "icon": {
+                "type": "img",
+                "content": "./res/apps/pdf-reader/V2.6.347-Dist/img/ico.png",
+                "bg": ""
+            },
+            "openMode": "max",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.1",
+                "y": "y*0.1"
+            },
+            "version": "2.6.347-Dist",
+            "poweredBy": "Mozilla",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "PDF阅读器",
+            "url": "./res/apps/pdf-reader/V2.6.347-Dist/web/index.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
         "ylui-documents": {
             "addressBar": false,
             "autoRun": 0,
@@ -505,14 +538,14 @@
             "hash": ""
         },
         {
-            "app": "yl-app-home",
-            "title": "YLUI 官网",
+            "app": "retiehetools",
+            "title": "热铁盒工具箱",
             "params": {},
             "hash": ""
         },
         {
-            "app": "retiehetools",
-            "title": "热铁盒工具箱",
+            "app": "pdf-reader",
+            "title": "PDF阅读器",
             "params": {},
             "hash": ""
         },
@@ -630,29 +663,34 @@
             }
         ],
         "menu": {
-            "itemPushed-85": {
-                "app": "yl-browser",
-                "title": "浏览器",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-96": {
-                "app": "yl-system",
-                "title": "系统设置",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-88": {
-                "app": "yl-app-store",
-                "title": "应用商店",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-89": {
-                "app": "yl-app-home",
-                "title": "YLUI 官网",
-                "params": {},
-                "hash": ""
+            "itemPushed-110": {
+                "title": "系统",
+                "children": {
+                    "itemPushed-85": {
+                        "app": "yl-browser",
+                        "title": "浏览器",
+                        "params": {},
+                        "hash": ""
+                    },
+                    "itemPushed-96": {
+                        "app": "yl-system",
+                        "title": "系统设置",
+                        "params": {},
+                        "hash": ""
+                    },
+                    "itemPushed-88": {
+                        "app": "yl-app-store",
+                        "title": "应用商店",
+                        "params": {},
+                        "hash": ""
+                    },
+                    "itemPushed-89": {
+                        "app": "yl-app-home",
+                        "title": "YLUI 官网",
+                        "params": {},
+                        "hash": ""
+                    }
+                }
             },
             "itemPushed-111": {
                 "title": "工具",
@@ -660,6 +698,12 @@
                     "itemPushed-112": {
                         "app": "retiehetools",
                         "title": "热铁盒工具箱",
+                        "params": {},
+                        "hash": ""
+                    },
+                    "itemPushed-115": {
+                        "app": "pdf-reader",
+                        "title": "PDF阅读器",
                         "params": {},
                         "hash": ""
                     },
