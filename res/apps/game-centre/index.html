@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小游戏</title>
+	<link rel="icon" href="./img/index-icon.png" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+			font-family: 微软雅黑;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #efeeee;
+			-webkit-user-select: none;
+			user-select: none;
+        }
+        .container{
+            width: 700px;
+            height: 600px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .container .box{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            width: 100px;
+            height: 140px;
+            margin: 20px;
+        }
+        .container .box .img{
+            width: 100px;
+            height: 100px;
+            box-shadow: 18px 18px 30px rgba(0,0,0,0.1),
+            -18px -18px 30px rgba(255,255,255,1);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #efeeee;
+            transition: box-shadow .2s ease-out;
+            position: relative;
+        }
+        .container .box .img img{
+            width: 60px;
+            transition: width .2s ease-out;
+        }
+        .container .box a{
+            color: black;
+            transition: color 0.5s ease 0s;
+        }
+	.container a{
+	    text-decoration: none;
+            color: black;
+            transition: color 0.5s ease 0s;
+	}
+        .container .box .img:hover{
+            box-shadow: 0px 0px 0px rgba(0,0,0,0.1),
+            0px 0px 0px rgba(255,255,255,1),
+            inset 18px 18px 30px rgba(0,0,0,0.1),
+            inset -18px -18px 30px rgba(255,255,255,1);
+            transition: box-shadow .2s ease-out;
+        }
+        .container .box .img:hover img{
+            width: 58px;
+            transition: width .2s ease-out;
+        }
+        .container .box a:hover{
+            color: slategray;
+            transition: color 0.5s ease 0s;
+        }
+		.container a:hover{
+            color: slategray;
+            transition: color 0.5s ease 0s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!--1-->
+        <div class="box">
+            <div class="img">
+                <a href="./maze.html">
+                    <img src='./img/maze-icon.png'>
+                </a>
+            </div>
+            <a href="./maze.html">迷宫</a>
+        </div>
+        <!--2-->
+        <div class="box">
+            <div class="img">
+                <a href="./add.html">
+                    <img src='./img/add-icon.png'>
+                </a>
+            </div>
+            <a href="./add.html">加数游戏</a>
+        </div>
+        <!--3-->
+        <!--
+        <div class="box">
+            <div class="img">
+                <a href="./simpleqa.html">
+                    <img src='./img/simpleqa-icon.png'>
+                </a>
+            </div>
+            <a href="./simpleqa.html">简单问答游戏</a>
+        </div>
+        -->
+        <!--4-->
+        <div class="box">
+            <div class="img">
+                <a href="./coordinate.html">
+                    <img src='./img/coordinate-icon.png'>
+                </a>
+            </div>
+            <a href="./coordinate.html">坐标</a>
+        </div>
+	    <!--5-->
+        <div class="box">
+            <div class="img">
+                <a href="./flashlight-hide-and-seek.html">
+                    <img src='./img/flashlight-hide-and-seek-icon.png'>
+                </a>
+            </div>
+            <a href="./flashlight-hide-and-seek.html">手电筒捉迷藏</a>
+        </div>
+		<!--6-->
+        <div class="box">
+            <div class="img">
+                <a href="./MicrosoftEdge-S.U.R.F.-2.0/">
+                    <img src='./img/microsoftedge-surf-icon.png'>
+                </a>
+            </div>
+            <a href="./MicrosoftEdge-S.U.R.F.-2.0/">网上冲浪</a>
+        </div>
+	</div>
+</body>
+</html>

@@ -352,6 +352,72 @@
             "customTile": "",
             "urlRandomToken": true
         },
+        "html-editor": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "HTML编辑器",
+            "icon": {
+                "type": "img",
+                "content": "./res/apps/html-editor/img/index-icon.png",
+                "bg": ""
+            },
+            "openMode": "max",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.1",
+                "y": "y*0.1"
+            },
+            "version": "1.0.0",
+            "poweredBy": "CYY",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "HTML编辑器",
+            "url": "./res/apps/html-editor/index.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "game-centre": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "游戏中心",
+            "icon": {
+                "type": "img",
+                "content": "./res/apps/game-centre/img/index-icon.png",
+                "bg": ""
+            },
+            "openMode": "max",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.1",
+                "y": "y*0.1"
+            },
+            "version": "1.2.1",
+            "poweredBy": "CYY",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "游戏中心",
+            "url": "./res/apps/game-centre/index.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
         "ylui-documents": {
             "addressBar": false,
             "autoRun": 0,
@@ -406,7 +472,7 @@
                 "y": "y*0.05"
             },
             "version": "1.0.0",
-            "poweredBy": "",
+            "poweredBy": "Gitee",
             "resizable": true,
             "single": false,
             "size": {
@@ -550,8 +616,20 @@
             "hash": ""
         },
         {
+            "app": "html-editor",
+            "title": "HTML编辑器",
+            "params": {},
+            "hash": ""
+        },
+        {
             "app": "yl-color-picker",
             "title": "取色器",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "game-centre",
+            "title": "游戏中心",
             "params": {},
             "hash": ""
         },
@@ -620,7 +698,7 @@
                     "x": 0,
                     "y": 0,
                     "w": 6,
-                    "h": 4,
+                    "h": 3,
                     "app": "yl-browser",
                     "title": "浏览器",
                     "i": "147",
@@ -707,6 +785,12 @@
                         "params": {},
                         "hash": ""
                     },
+                    "itemPushed-116": {
+                        "app": "html-editor",
+                        "title": "HTML编辑器",
+                        "params": {},
+                        "hash": ""
+                    },
                     "itemPushed-113": {
                         "app": "yl-color-picker",
                         "title": "取色器",
@@ -737,6 +821,12 @@
                         "hash": ""
                     }
                 }
+            },
+            "itemPushed-155": {
+                "app": "game-centre",
+                "title": "游戏中心",
+                "params": {},
+                "hash": ""
             }
         }
     }
